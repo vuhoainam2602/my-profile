@@ -28,7 +28,7 @@ export const Footer = () => {
           {/* Thông tin bản quyền */}
           <div className="flex flex-col items-center md:items-start">
             <p className="text-sm text-muted-foreground tracking-wide text-center md:text-left mb-2">
-              &copy; {new Date().getFullYear()} <span className="font-semibold text-primary">Lê Quang Vinh</span>. All rights reserved.
+              &copy; {new Date().getFullYear()} <span className="font-semibold text-primary">Vũ Hoài Nam</span>. All rights reserved.
             </p>
             
             {/* Thêm liên kết mạng xã hội */}

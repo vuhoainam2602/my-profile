@@ -3,32 +3,35 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    title: "Spec EDU",
+    description: "Website bán khóa học trực tuyến.",
+    image: "/projects/project4.png",
+    tags: ["Spring boot", "HTML/CSS", "MySQL"],
+    demoUrl: "https://spec.edu.vn/",
     githubUrl: "#",
+    script: "Click vào để xem chi tiết dự án",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Văn phòng số",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+      "Quản lý văn bản, công việc và quy trình làm việc trực tuyến.",
+    image: "/projects/project7.png",
+    tags: ["ASP.NET MVC", "SQL Server"],
+    demoUrl: "/projects/project7.png",
     githubUrl: "#",
+    script: "Do tính bảo mật, tôi không thể công khai mã nguồn của dự án này.",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "PMS quản lý dự án",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Spring", "Stripe"],
-    demoUrl: "#",
+      "Quản lý dự án, hợp đồng, quyết toán, thực hiệ đầu tư trong một nền tảng duy nhất.",
+    image: "/projects/project6.png",
+    tags: ["ASP.NET MVC", "SQL Server"],
+    demoUrl: "/projects/project6.png",
     githubUrl: "#",
+     script: "Do tính bảo mật, tôi không thể công khai mã nguồn của dự án này.",
   },
 ];
 
@@ -47,7 +50,9 @@ export const ProjectsSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
-            <div
+            <a
+              href={project.demoUrl}
+              target="_blank"
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
@@ -77,24 +82,15 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    <p
+                      className="text-xs px-2 py-1 rounded bg-yellow-100 text-yellow-800 border border-yellow-300 italic"
                     >
-                      <ExternalLink size={20} />
-                    </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
+                      {project.script}
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
@@ -102,7 +98,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/QuangVinh32"
+            href="https://github.com/vuhoainam2602"
           >
             Check My Github <ArrowRight size={16} />
           </a>

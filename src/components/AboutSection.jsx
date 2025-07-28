@@ -12,23 +12,16 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Nhà phát triển web đam mê & Người sáng tạo công nghệ
+              Triển khai và phát tiển
             </h3>
 
             <p className="text-muted-foreground">
-              Với hơn 2 năm kinh nghiệm trong lĩnh vực phát triển web, tôi chuyên tạo ra các ứng dụng web có khả năng phản hồi, dễ truy cập và hiệu suất cao bằng các công nghệ hiện đại.
+              Với hơn 3 năm kinh nghiệm trong lĩnh vực phần mềm, tôi đã phát triển và triển khai nhiều ứng dụng phần mềm, từ các trang web tĩnh đến các hệ thống phức tạp. Tôi có nền tảng vững chắc trong cả front-end và back-end.
             </p>
 
-            <p className="text-muted-foreground">
-              Tôi đam mê tạo ra các giải pháp tinh tế cho các vấn đề phức tạp và không ngừng học hỏi các công nghệ và kỹ thuật mới để luôn đi đầu trong bối cảnh web luôn thay đổi.
-            </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                {" "}
-                Get In Touch
-              </a>
-
+              
               <a
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
@@ -58,9 +51,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Triển khai phần mềm</h4>
                   <p className="text-muted-foreground">
-                  Thiết kế giao diện người dùng trực quan và trải nghiệm người dùng liền mạch.
+                  Triển khai phần mềm và quản lý vòng đời phát triển phần mềm bằng các phương pháp Agile.
                   </p>
                 </div>
               </div>
@@ -72,9 +65,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Turning SQL</h4>
                   <p className="text-muted-foreground">
-                    Chỉ đạo các dự án từ khâu hình thành đến khi hoàn thành bằng phương pháp linh hoạt.
+                  Quản lý cơ sở dữ liệu và tối ưu hóa truy vấn SQL để hiệu suất tốt hơn.
                   </p>
                 </div>
               </div>

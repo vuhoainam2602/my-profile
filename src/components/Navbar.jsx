@@ -7,7 +7,7 @@ const navItems = [
   { name: "Giới thiệu Về tôi", href: "#about" },
   { name: "Kỹ năng", href: "#skills" },
   { name: "Dự án", href: "#projects" },
-  { name: "Học vấn", href: "#education" },
+  // { name: "Học vấn", href: "#education" },
   { name: "Liên hệ", href: "#contact" },
 
 ];

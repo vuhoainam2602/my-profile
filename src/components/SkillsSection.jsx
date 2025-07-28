@@ -4,25 +4,22 @@ import { cn } from "@/lib/utils"; // đảm bảo path đúng
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "ReactJs", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Angular", level: 80, category: "frontend" },
+  { name: "HTML/CSS", level: 80, category: "frontend" },
+  { name: "JavaScript", level:60, category: "frontend" },
+  { name: "ReactJs", level: 40, category: "frontend" },
 
   // Backend
-  { name: "Java Core", level: 80, category: "backend" },
-  { name: "Spring Boot", level: 75, category: "backend" },
-  { name: "MySQL", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  { name: "Java Core", level: 70, category: "backend" },
+  { name: ".NET Framework", level: 75, category: "backend" },
+  { name: "Python", level: 50, category: "backend" },
+  { name: "MySQL", level: 60, category: "backend" },
+  { name: "SQL Server", level: 80, category: "backend" },
+  { name: "C#", level: 60, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 80, category: "tools" },
   { name: "Docker", level: 50, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 80, category: "tools" },
+  { name: "SVN", level: 50, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

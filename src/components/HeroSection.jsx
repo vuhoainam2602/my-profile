@@ -12,29 +12,27 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in">Xin chào, Tôi là</span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Lê Quang
+              Vũ Hoài
             </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Vinh
+              Nam
             </span>
-
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Tôi tạo ra những trải nghiệm web tuyệt vời với công nghệ hiện đại. Chuyên về phát triển front-end và back-end, tôi xây dựng những giao diện vừa đẹp vừa hữu dụng.
+            Tôi phát triển các sản phẩm hiện đại, kết hợp giữa thiết kế đẹp mắt
+            và hiệu suất mạnh mẽ.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a
-              href="#projects"
+              href="#about"
               className="cosmic-button transition-transform duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/50"
             >
               Thông tin của tôi
             </a>
-
           </div>
-
         </div>
       </div>
 
